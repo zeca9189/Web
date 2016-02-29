@@ -1,0 +1,301 @@
+
+/*mobile*/
+
+
+
+@media all and (max-width: 321px){
+
+	p{
+		font-size: 10px;
+	}
+
+	#logo {
+    	width:200px;
+    	height:50px;
+	}
+
+	#mainimage {	
+	    width: 240px;
+	    height:180px;
+	}
+
+	#loadimage{
+		width: 90px;
+		height: 120px;
+	}
+
+	#button{
+		width: 100%;
+		height: 80px;		    
+	}
+
+	#load {
+		width:80px;
+		height:80px;	  
+	   	   
+	}
+
+	#save {
+		width:80px;
+		height:80px;  	     	   
+	}
+}
+
+@media all and (min-width: 321px) and (max-width: 401px ){
+	#logo {
+    	width:300px;
+    	height:150px;
+	}
+
+	#mainimage {	
+	    width: 320px;
+	    height:240px;
+	}
+
+	#loadimage{
+		width: 120px;
+		height: 160px;
+	}
+
+	#button{
+		width: 100%;
+		height: 100px;		    
+	}
+
+	#load {
+		width:120px;
+		height:120px;	    
+	}
+
+	#save {
+		width:120px;
+		height:120px;  	      
+	}
+}
+
+@media all and (min-width: 401px) and (max-width: 481px ){
+	#logo {
+    	width:300px;
+    	height:150px;
+	}
+
+	#mainimage {	
+	    width: 400px;
+	    height:300px;
+	}
+
+	#loadimage{
+		width: 150px;
+		height: 200px;
+	}
+
+	#button{
+		width: 100%;
+		height: 100px;		    
+	}
+
+	#load {
+		width:120px;
+		height:120px;	    
+	}
+
+	#save {
+		width:120px;
+		height:120px;  	      
+	}
+}
+
+@media all and (min-width: 481px) and (max-width: 561px ){
+	#logo {
+    	width:300px;
+    	height:150px;
+	}
+
+	#mainimage {	
+	    width: 480px;
+	    height:360px;
+	}
+
+	#loadimage{
+		width: 180px;
+		height: 240px;
+	}
+
+	#button{
+		width: 100%;
+		height: 100px;		    
+	}
+
+	#load {
+		width:120px;
+		height:120px;	    
+	}
+
+	#save {
+		width:120px;
+		height:120px;  	      
+	}
+}
+
+@media all and (min-width: 561px) and (max-width: 641px ){
+	#logo {
+    	width:300px;
+    	height:150px;
+	}
+
+	#mainimage {	
+	    width: 560px;
+	    height:420px;
+	}
+
+	#loadimage{
+		width: 210px;
+		height: 280px;
+	}
+
+
+	#button{
+		width: 100%;
+		height: 100px;		    
+	}
+
+	#load {
+		width:120px;
+		height:120px;	    
+	}
+
+	#save {
+		width:120px;
+		height:120px;  	      
+	}
+}
+
+@media all and (min-width: 641px) and (max-width: 721px ){
+	#logo {
+    	width:300px;
+    	height:150px;
+	}
+
+	#mainimage {	
+	    width: 640px;
+	    height:480px;
+	}
+
+	#loadimage{
+		width: 240px;
+		height: 320px;
+	}
+
+	#button{
+		width: 100%;
+		height: 100px;		    
+	}
+
+	#load {
+		width:120px;
+		height:120px;	    
+	}
+
+	#save {
+		width:120px;
+		height:120px;  	      
+	}
+}
+
+@media all and (min-width: 721px) and (max-width: 801px ){
+	#logo {
+    	width:300px;
+    	height:150px;
+	}
+
+	#mainimage {	
+	    width: 720px;
+	    height:540px;
+	}
+
+	#loadimage{
+		width: 270px;
+		height: 360px;
+	}
+
+
+	#button{
+		width: 100%;
+		height: 100px;		    
+	}
+
+	#load {
+		width:120px;
+		height:120px;	    
+	}
+
+	#save {
+		width:120px;
+		height:120px;  	      
+	}
+}
+
+@media all and (min-width: 801px) and (max-width: 1201px ){
+	#logo {
+    	width:300px;
+    	height:150px;
+	}
+
+	#mainimage {	
+	    width: 800px;
+	    height:600px;
+	}
+
+	#loadimage{
+		width: 300px;
+		height: 400px;
+	}
+
+	#button{
+		width: 100%;
+		height: 100px;		    
+	}
+
+	#load {
+		width:120px;
+		height:120px;	    
+	}
+
+	#save {
+		width:120px;
+		height:120px;  	      
+	}
+}
+
+
+@media all and (min-width: 1201px){
+	#logo {
+    	width:300px;
+    	height:150px;
+	}
+
+	#mainimage {	
+	    width: 1200px;
+	    height:900px;
+	}
+
+	#loadimage{
+		width: 450px;
+		height: 600px;
+	}
+
+	#button{
+		width: 100%;
+		height: 100px;		    
+	}
+
+	#load {
+		width:120px;
+		height:120px;	    
+	}
+
+	#save {
+		width:120px;
+		height:120px;  	      
+	}
+}

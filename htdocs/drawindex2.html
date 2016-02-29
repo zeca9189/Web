@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--css-->
+        <link rel="stylesheet" type="text/css" href="drawkorea2.css"/>
+        <link rel="stylesheet" type="text/css" href="drawkoreaini.css"/>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="jquery.ui.touch-punch.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+        <!-- my js file -->
+        <script type="text/javascript" src="drawkorea2.js"></script>
+        
+    </head>
+    <body>
+        <div id="logo" class="logocommon"></div>
+        <div id="mainimage" class="maincommon"></div>
+        <div id ="button" class="buttoncommon">
+            <p><strong>태극기 프로필 만들기</strong></p>
+            <div id="load" class="loadcommon" data-toggle="modal" data-target="#loadModal"></div>
+            <div id="save" class="savecommon" data-toggle="modal" data-target="#saveModal"></div>
+        </div>
+
+        <!-- loadModal -->
+        <div id="loadModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">이미지 선택하기</h4>
+              </div>
+              <div class="modal-body">
+                <p>이미지를 선택해 주세요</p>
+                <div>
+                    <form action="" method="post" enctype="multipart/form-data">                
+                        <div>
+                            <input type="file" class="btn btn-default" accept="image/*" id = "file" name="file" />          
+                        </div>
+                    </form>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <input type="button"  class="btn btn-default" data-dismiss="modal" value = "Select" id="select"  /> 
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- saveModal -->
+        <div id="saveModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">완성된 이미지</h4>
+              </div>
+              <!-- body -->
+              
+              <div class="modal-body">
+                <a id = "m_imageurl" download><img id = "m_imageimg"  class="" width="500" height="400" ></a>
+                <p>이미지를 클릭하시면 사진이 저장됩니다.</p>
+              </div>
+              <div class="modal-footer"> 
+
+                <button type="button" class="btn btn-default" data-dismiss="modal">cancle</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+    </body>
+</html>
