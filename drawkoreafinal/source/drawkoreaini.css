@@ -1,0 +1,37 @@
+div {
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.logocommon{
+	background-image: url("image/logo.png");
+	background-size: 100% 100%;
+	margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.loadcommon{
+	background-image:url('image/load.png');
+	background-position: center;
+	background-size: 100% 100%;
+	display: inline-block;
+	
+
+}
+
+.savecommon{
+	background-position: center;
+	background-image:url('image/save.png');
+	background-size: 100% 100%;
+	display: inline-block;
+	
+}
+
+.maincommon{
+	background-image:url('image/mainimage.png');
+	background-size: 100% 100%;
+	margin-left: auto;
+   	margin-right: auto;
+   	position: relative;
+}
