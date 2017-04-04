@@ -13,8 +13,6 @@ $(document).ready(function(){
             type: 'POST',
             success: function(returndata){
 
-                //파일 불러와서 셋팅해주기 
-
                 var myimg = $(document.createElement('img'));
                 myimg.attr('id',"loadimage");
                 myimg.addClass("loadimage");
@@ -51,11 +49,9 @@ $(document).ready(function(){
             data:{ fname: ''+fName, fx: ''+fX ,fy: ''+fY ,imagex: ''+imagex ,imagey: ''+imagey},
             type: 'POST',
             success: function(returndata){
-                // 성공시 이거 되면 여기서 설정 해주는 걸로
                 var mergeurl= document.getElementById("m_imageurl");
                 var mergeimg= document.getElementById("m_imageimg");
 
-                 //같은 유알엘들 걸어 줄꺼야 
                 mergeurl.href="./mergeimage/"+fName;
                 mergeimg.src="./mergeimage/"+fName;
 

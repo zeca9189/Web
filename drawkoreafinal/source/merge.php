@@ -1,6 +1,6 @@
 <?php
 
-	//내폰에선 왜 안되는걸까
+
 	error_reporting(E_ALL);
 	ini_set("display_errors", 1);
 
